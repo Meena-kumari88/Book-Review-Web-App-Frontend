@@ -1,0 +1,74 @@
+    /* BookDetails.css */
+    .book-details {
+        padding: 20px;
+    }
+    
+    .book-details-content {
+        display: flex;
+        gap: 20px; /* Adjust this gap if needed */
+    }
+    
+    .book-image-container {
+        flex: 1;
+    }
+    
+    .book-image {
+        width: 100%;
+        height: auto;
+        max-width: 400px; 
+        border-radius: 8px;
+    }
+    
+    .book-info {
+        flex: 2;
+    }
+    
+    .reviews-container {
+        max-height: 300px; /* Adjust height as needed */
+        overflow-y: auto;
+        margin-bottom: 15px; /* Reduce margin below reviews container */
+    }
+    
+    .review {
+        margin-bottom: 10px; 
+        padding: 8px; 
+    }
+    
+    .review-form input,
+    .review-form textarea {
+        width: 100%;
+        margin-bottom: 8px; /* Reduce margin between form fields */
+        padding: 8px; /* Reduce padding inside form fields */
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    
+    .review-form button {
+        padding: 8px 12px; /* Reduce padding inside button */
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .review-form button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Star rating styles */
+    .star-rating {
+        display: flex;
+        gap: 4px;
+    }
+    
+    .star {
+        font-size: 24px; /* Adjust star size as needed */
+        color: #ccc;
+        cursor: pointer;
+    }
+    
+    .star.filled {
+        color: #ffd700; /* Gold color for filled stars */
+    }
+    
